@@ -1,0 +1,78 @@
+CREATE TABLE Registration (
+    UserID INT PRIMARY KEY IDENTITY(1,1),
+    Username NVARCHAR(50) NOT NULL,
+    Password NVARCHAR(50) NOT NULL,
+    Email NVARCHAR(100) NOT NULL,
+    DateOfBirth DATE,
+    PhoneNumber NVARCHAR(20),
+    Address NVARCHAR(255)
+);
+
+CREATE TABLE Login (
+    UserID INT PRIMARY KEY,
+    Username NVARCHAR(50) NOT NULL,
+    HashedPassword NVARCHAR(255) NOT NULL,
+    CONSTRAINT FK_Login_User FOREIGN KEY (UserID) REFERENCES Registration(UserID)
+);
+
+DECLARE @HashedPassword NVARCHAR(255);
+DECLARE @Password NVARCHAR(50) = 'user_password';
+
+SET @HashedPassword = HASHBYTES('SHA2_256', @Password);
+
+
+CREATE TABLE Product (
+    ProductID INT PRIMARY KEY IDENTITY(1,1),
+    Name NVARCHAR(100) NOT NULL,
+    Description NVARCHAR(MAX),
+    Price DECIMAL(10, 2) NOT NULL,
+    StockQuantity INT NOT NULL
+);
+
+CREATE TABLE Quantity (
+    ProductID INT PRIMARY KEY,
+    StockQuantity INT NOT NULL,
+    CONSTRAINT FK_Quantity_Product FOREIGN KEY (ProductID) REFERENCES Product(ProductID)
+);
+
+CREATE TABLE Orders (
+    OrderID INT PRIMARY KEY IDENTITY(1,1),
+    UserID INT NOT NULL,
+    OrderDate DATETIME NOT NULL,
+    TotalAmount DECIMAL(10, 2) NOT NULL,
+    CONSTRAINT FK_Orders_User FOREIGN KEY (UserID) REFERENCES Registration(UserID)
+);
+
+CREATE TABLE [Transaction] (
+    TransactionID INT PRIMARY KEY IDENTITY(1,1),
+    OrderID INT NOT NULL,
+    TransactionDate DATETIME NOT NULL,
+    Amount DECIMAL(10, 2) NOT NULL,
+    TransactionType NVARCHAR(50) NOT NULL,
+    CONSTRAINT FK_Transaction_Order FOREIGN KEY (OrderID) REFERENCES Orders(OrderID)
+);
+
+CREATE TABLE Cart (
+    CartID INT PRIMARY KEY IDENTITY(1,1),
+    UserID INT NOT NULL,
+    ProductID INT NOT NULL,
+    Quantity INT NOT NULL,
+    CONSTRAINT FK_Cart_User FOREIGN KEY (UserID) REFERENCES Registration(UserID),
+    CONSTRAINT FK_Cart_Product FOREIGN KEY (ProductID) REFERENCES Product(ProductID)
+);
+
+CREATE TABLE UserProfile (
+    UserID INT PRIMARY KEY,
+    Username NVARCHAR(50) NOT NULL,
+    Email NVARCHAR(100) NOT NULL,
+    PhoneNumber NVARCHAR(20),
+    Address NVARCHAR(255),
+    CONSTRAINT FK_UserProfile_User FOREIGN KEY (UserID) REFERENCES Registration(UserID)
+);
+
+INSERT INTO Registration (Username, Password, Email, DateOfBirth, PhoneNumber, Address)
+VALUES 
+('Jarod', 'password123', 'jarodneill@gmail.com', '2004-05-14', '1234567890', '1 Agte Clse, City, Durban'),
+('Renier', 'P@ssw0rd', 'reniersomething@gmail.com', '2002-09-20', '9876543210', '45 Afrika, City, Durban');
+
+
