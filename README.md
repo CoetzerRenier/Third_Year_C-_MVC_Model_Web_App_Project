@@ -45,6 +45,46 @@ Browse through the available items, view their details, and search for specific 
 Add items to your shopping cart by clicking on the "Add to Cart" button.
 Proceed to checkout to finalize your purchases (Note: Payment functionality is mocked for Sprint 1).
 
+# SSMS
+CREATE DATABASE GroovyBooks
+
+CREATE TABLE Registration(
+RegistrationID INT IDENTITY(1,1) NOT NULL PRIMARY KEY,
+Username VARCHAR(25),
+Password VARCHAR(25),
+Email VARCHAR(25),
+DateOfBirth Date,
+PhoneNo INT,
+Address VARCHAR(50)
+);
+
+CREATE TABLE Profile(
+ProfileID INT IDENTITY(1,1) NOT NULL PRIMARY KEY,
+Email VARCHAR(25) NOT NULL,
+Password VARCHAR(25) NOT NULL
+);
+
+CREATE TABLE Product(
+ProductID INT IDENTITY(1,1) NOT NULL PRIMARY KEY,
+Description VARCHAR(50) NOT NULL,
+Name VARCHAR(25) NOT NULL,
+Price VARCHAR(25) NOT NULL,
+Stock VARCHAR(4) NOT NULL
+);
+
+CREATE TABLE Cart(
+OrderID INT IDENTITY(1,1) PRIMARY KEY NOT NULL,
+Quantity INT,
+TotalCost INT,
+ProductID INT FOREIGN KEY REFERENCES Product(ProductID)
+);
+
+INSERT INTO Product VALUES('Ai vs Human Intelligence', 'Deep Thinking', 'R275', 'Yes');
+INSERT INTO Product VALUES('Brothers by birth. Enemies by blood.', 'When the Lion Feeds', 'R499', 'Yes');
+INSERT INTO Product VALUES('Spanning a lifetime of love and loss.', 'Atlas', 'R299', 'N/A');
+INSERT INTO Product VALUES('All five novel goodness!', 'A Game of Thrones', 'R999', 'Yes');
+INSERT INTO Product VALUES('The price of victory and the cost of war.', 'Dune', 'R199', 'N/A');
+
 # License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
