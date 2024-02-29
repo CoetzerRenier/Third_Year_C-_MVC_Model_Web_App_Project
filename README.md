@@ -1,6 +1,6 @@
 # GroovyBooks
 
-# SSMS Setup
+# *SSMS Setup* 
 CREATE DATABASE GroovyBooks
 
 CREATE TABLE Registration(
