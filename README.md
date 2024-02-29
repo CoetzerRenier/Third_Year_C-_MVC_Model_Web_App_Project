@@ -45,8 +45,8 @@ Browse through the available items, view their details, and search for specific 
 Add items to your shopping cart by clicking on the "Add to Cart" button.
 Proceed to checkout to finalize your purchases (Note: Payment functionality is mocked for Sprint 1).
 
-License
+# License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-Acknowledgements
+# Acknowledgements
 Special thanks to Jarod Neidoo for saving our butts on this project thanks to his knowledge of cshtml.
