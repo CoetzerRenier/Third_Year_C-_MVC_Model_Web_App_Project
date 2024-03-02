@@ -1,6 +1,6 @@
 # GroovyBooks
 
-Welcome to the *Books Online Store! This project aims to develop a robust online platform for *Books, where customers can seamlessly browse, search, and purchase items from the comfort of their homes. This README will guide you through setting up the project and understanding its key features.
+Welcome to the Groovy Books Store! This project aims to develop a robust online platform for Books, where customers can seamlessly browse, search, and purchase items from the comfort of their homes. This README will guide you through setting up the project and understanding its key features.
 
 # Features
 # User Registration and Profiles:
