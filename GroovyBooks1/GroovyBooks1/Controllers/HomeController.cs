@@ -29,17 +29,21 @@ namespace GroovyBooks1.Controllers
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
 
+<<<<<<< Updated upstream
         public IActionResult MyPage()
         {
             return View();
         }
 
+=======
+>>>>>>> Stashed changes
         [HttpPost]
         public IActionResult Submit()
         {
                       
             return RedirectToAction("Index");
         }
+<<<<<<< Updated upstream
 
         public IActionResult Register()
         {
@@ -60,6 +64,8 @@ namespace GroovyBooks1.Controllers
         {
             return View();
         }
+=======
+>>>>>>> Stashed changes
     }
 
 }

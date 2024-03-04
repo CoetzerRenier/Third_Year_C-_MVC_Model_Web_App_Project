@@ -3,14 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\jarod\\source\\repos\\GroovyBooks1\\",
   "Documents": [
     {
+<<<<<<< Updated upstream
       "AbsoluteMoniker": "D:0:0:{C522B055-3E31-44C2-B625-E004D432AD04}|GroovyBooks1\\GroovyBooks1.csproj|c:\\users\\jarod\\source\\repos\\groovybooks1\\groovybooks1\\views\\home\\mypage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C522B055-3E31-44C2-B625-E004D432AD04}|GroovyBooks1\\GroovyBooks1.csproj|solutionrelative:groovybooks1\\views\\home\\mypage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+=======
+      "AbsoluteMoniker": "D:0:0:{C522B055-3E31-44C2-B625-E004D432AD04}|GroovyBooks1\\GroovyBooks1.csproj|e:\\groovybooksrep\\groovybooks\\groovybooks1\\groovybooks1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C522B055-3E31-44C2-B625-E004D432AD04}|GroovyBooks1\\GroovyBooks1.csproj|solutionrelative:groovybooks1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+>>>>>>> Stashed changes
     },
     {
       "AbsoluteMoniker": "D:0:0:{C522B055-3E31-44C2-B625-E004D432AD04}|GroovyBooks1\\GroovyBooks1.csproj|c:\\users\\jarod\\source\\repos\\groovybooks1\\groovybooks1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C522B055-3E31-44C2-B625-E004D432AD04}|GroovyBooks1\\GroovyBooks1.csproj|solutionrelative:groovybooks1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+<<<<<<< Updated upstream
       "AbsoluteMoniker": "D:0:0:{C522B055-3E31-44C2-B625-E004D432AD04}|GroovyBooks1\\GroovyBooks1.csproj|c:\\users\\jarod\\source\\repos\\groovybooks1\\groovybooks1\\views\\home\\profiles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C522B055-3E31-44C2-B625-E004D432AD04}|GroovyBooks1\\GroovyBooks1.csproj|solutionrelative:groovybooks1\\views\\home\\profiles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -41,6 +47,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{C522B055-3E31-44C2-B625-E004D432AD04}|GroovyBooks1\\GroovyBooks1.csproj|c:\\users\\jarod\\source\\repos\\groovybooks1\\groovybooks1\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{C522B055-3E31-44C2-B625-E004D432AD04}|GroovyBooks1\\GroovyBooks1.csproj|solutionrelative:groovybooks1\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+=======
+      "AbsoluteMoniker": "D:0:0:{C522B055-3E31-44C2-B625-E004D432AD04}|GroovyBooks1\\GroovyBooks1.csproj|e:\\groovybooksrep\\groovybooks\\groovybooks1\\groovybooks1\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C522B055-3E31-44C2-B625-E004D432AD04}|GroovyBooks1\\GroovyBooks1.csproj|solutionrelative:groovybooks1\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+>>>>>>> Stashed changes
     }
   ],
   "DocumentGroupContainers": [
@@ -84,6 +94,7 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+<<<<<<< Updated upstream
               "Title": "MyPage.cshtml",
               "DocumentMoniker": "C:\\Users\\jarod\\source\\repos\\GroovyBooks1\\GroovyBooks1\\Views\\Home\\MyPage.cshtml",
               "RelativeDocumentMoniker": "GroovyBooks1\\Views\\Home\\MyPage.cshtml",
@@ -92,10 +103,21 @@
               "ViewState": "AQIAAHYAAAAAAAAAAAAwwIAAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-02-29T08:10:14.464Z",
+=======
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\GroovyBooksRep\\GroovyBooks\\GroovyBooks1\\GroovyBooks1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "GroovyBooks1\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\GroovyBooksRep\\GroovyBooks\\GroovyBooks1\\GroovyBooks1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "GroovyBooks1\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-04T15:24:15.455Z",
+>>>>>>> Stashed changes
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 4,
               "Title": "Carts.cshtml",
               "DocumentMoniker": "C:\\Users\\jarod\\source\\repos\\GroovyBooks1\\GroovyBooks1\\Views\\Home\\Carts.cshtml",
@@ -177,6 +199,30 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-02-27T07:07:19.908Z"
+=======
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\GroovyBooksRep\\GroovyBooks\\GroovyBooks1\\GroovyBooks1\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "GroovyBooks1\\Controllers\\HomeController.cs",
+              "ToolTip": "E:\\GroovyBooksRep\\GroovyBooks\\GroovyBooks1\\GroovyBooks1\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "GroovyBooks1\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T15:21:33.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\GroovyBooksRep\\GroovyBooks\\GroovyBooks1\\GroovyBooks1\\Views\\Products\\Index.cshtml",
+              "RelativeDocumentMoniker": "GroovyBooks1\\Views\\Products\\Index.cshtml",
+              "ToolTip": "E:\\GroovyBooksRep\\GroovyBooks\\GroovyBooks1\\GroovyBooks1\\Views\\Products\\Index.cshtml",
+              "RelativeToolTip": "GroovyBooks1\\Views\\Products\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-04T07:45:36.495Z"
+>>>>>>> Stashed changes
             }
           ]
         }
