@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\JR_Books_MkII.props" />
+</Project>
